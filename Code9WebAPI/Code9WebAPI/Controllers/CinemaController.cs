@@ -12,10 +12,11 @@ namespace Code9WebAPI.Controllers
     public class CinemaController : ControllerBase
     {
         private readonly IMediator _mediator;
-
-        public CinemaController(IMediator mediator)
+        private readonly ILogger _logger;
+        public CinemaController(IMediator mediator, ILogger logger)
         {
             _mediator = mediator;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -38,6 +39,7 @@ namespace Code9WebAPI.Controllers
             };
 
             var cinema = await _mediator.Send(addCinemaCommand);
+            _logger.LogInformation("Cinema successfully added.");
             return CreatedAtAction(nameof(GetAllCinema), new { id = cinema.Id }, cinema);
         }
 
@@ -59,6 +61,7 @@ namespace Code9WebAPI.Controllers
             {
                 return NotFound();
             }
+            _logger.LogInformation("Cinema successfuly updated.");
             return Ok(cinema);
         }
 
@@ -68,7 +71,7 @@ namespace Code9WebAPI.Controllers
             var command = new DeleteCinemaCommand { Id = id };
             
             await _mediator.Send(command);
-            
+            _logger.LogInformation("Cinema successfuly deleted.");
             return NoContent();
         }
     }

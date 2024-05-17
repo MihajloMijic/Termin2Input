@@ -1,0 +1,37 @@
+Entity Framework relationships
+https://learn.microsoft.com/en-us/ef/core/modeling/relationships
+
+Docker image Sql server
+https://hub.docker.com/_/microsoft-mssql-server
+
+Open CLI
+
+1. run sql image
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
+2. check image status
+docker ps
+
+3. connecto to database using Visual Studio Server explorer
+server : localhost
+user : sa
+password : defined in step 2.
+
+*stop docker 
+docker stop "containerId"
+	
+Visual studio - Developer PowerShell - work with EF 
+1. navigate to Code9.Infrastructure project
+
+2. add migration
+dotnet ef migrations add -s ..\Code9WebAPI\ -v InitialMigration
+
+3. update database
+dotnet ef database update -s ..\Code9WebAPI\
+
+4. insert data to tables city and Genre - FK constrints
+insert into City (Name, Region) values ('Novi Sad', 'Vojvodina')
+insert into City (Name, Region) values ('Krusevac', 'Zapadna Srbija')
+
+insert into Genre (Name) values ('Thriller')
+insert into Genre (Name) values ('Comedy')

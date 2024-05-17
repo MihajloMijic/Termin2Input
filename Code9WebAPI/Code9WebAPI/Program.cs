@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddDbContext<CinemaDbContext>(options =>
     options.UseInMemoryDatabase("Cinema"));
 builder.Services.AddScoped<ICinemaRepository, CinemaRepository>();
@@ -14,7 +13,14 @@ builder.Services.AddScoped<ICinemaRepository, CinemaRepository>();
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(AddCinemaCommand).Assembly));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Add logging service as a singleton
+builder.Services.AddSingleton<ILogger>(sp =>
+{
+    var loggerFactory = sp.GetRequiredService<ILoggerFactory>();
+    return loggerFactory.CreateLogger("MyLogger");
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -25,7 +31,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    
+
     using var scope = app.Services.CreateScope();
     using var dbContext = scope.ServiceProvider.GetRequiredService<CinemaDbContext>();
     dbContext.Database.EnsureCreated();

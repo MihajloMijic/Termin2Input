@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7l73ZRV1NdXKhhgQejOwqbrwn4a+IODsDrDOkUO8j7ePJxuDYHNA6I4xOahlIg9OhhhQ0VI8ADtSwqOv3KYMIA==",
+  "dgSpecHash": "4DEQRoyKhpMNOum1gKZo/2fQj1ysmLXa6Uf8n+N9/rnlFr0lMPrGX9ZwmdaFAPNE7IRSbhMaDcToRdMb9G232w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Code9.Domain.csproj",
+  "projectFilePath": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Code9\\Code92024\\Termin2\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Code9.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\r.kresoja\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\r.kresoja\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
