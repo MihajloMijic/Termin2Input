@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C96E73F-7D93-440B-AD21-2F75B6FFFBCE}|Code9WebAPI\\Code9WebAPI.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C96E73F-7D93-440B-AD21-2F75B6FFFBCE}|Code9WebAPI\\Code9WebAPI.csproj|solutionrelative:code9webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C96E73F-7D93-440B-AD21-2F75B6FFFBCE}|Code9WebAPI\\Code9WebAPI.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9webapi\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C96E73F-7D93-440B-AD21-2F75B6FFFBCE}|Code9WebAPI\\Code9WebAPI.csproj|solutionrelative:code9webapi\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BFF84A-BB93-40FD-AB70-EB346A3033D5}|Code9.Domain\\Code9.Domain.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9.domain\\queries\\getallcinemaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BFF84A-BB93-40FD-AB70-EB346A3033D5}|Code9.Domain\\Code9.Domain.csproj|solutionrelative:code9.domain\\queries\\getallcinemaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E626F4-360D-4964-88EE-0ABAAFB7C801}|Code9.Infrastructure\\Code9.Infrastructure.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9.infrastructure\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E626F4-360D-4964-88EE-0ABAAFB7C801}|Code9.Infrastructure\\Code9.Infrastructure.csproj|solutionrelative:code9.infrastructure\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BFF84A-BB93-40FD-AB70-EB346A3033D5}|Code9.Domain\\Code9.Domain.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9.domain\\handlers\\getallcinemahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BFF84A-BB93-40FD-AB70-EB346A3033D5}|Code9.Domain\\Code9.Domain.csproj|solutionrelative:code9.domain\\handlers\\getallcinemahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E626F4-360D-4964-88EE-0ABAAFB7C801}|Code9.Infrastructure\\Code9.Infrastructure.csproj|c:\\users\\r.kresoja\\onedrive - levi9 it services\\desktop\\termin2input\\code9webapi\\code9.infrastructure\\repositories\\cinemarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E626F4-360D-4964-88EE-0ABAAFB7C801}|Code9.Infrastructure\\Code9.Infrastructure.csproj|solutionrelative:code9.infrastructure\\repositories\\cinemarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Code9WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9WebAPI\\Program.cs",
+              "RelativeToolTip": "Code9WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:33:34.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CinemaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Infrastructure\\Repositories\\CinemaRepository.cs",
+              "RelativeDocumentMoniker": "Code9.Infrastructure\\Repositories\\CinemaRepository.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Infrastructure\\Repositories\\CinemaRepository.cs",
+              "RelativeToolTip": "Code9.Infrastructure\\Repositories\\CinemaRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wDAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:33:19.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CinemaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Infrastructure\\CinemaDbContext.cs",
+              "RelativeDocumentMoniker": "Code9.Infrastructure\\CinemaDbContext.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Infrastructure\\CinemaDbContext.cs",
+              "RelativeToolTip": "Code9.Infrastructure\\CinemaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:33:08.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllCinemaQuery.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Queries\\GetAllCinemaQuery.cs",
+              "RelativeDocumentMoniker": "Code9.Domain\\Queries\\GetAllCinemaQuery.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Queries\\GetAllCinemaQuery.cs",
+              "RelativeToolTip": "Code9.Domain\\Queries\\GetAllCinemaQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:27:39.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllCinemaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Handlers\\GetAllCinemaHandler.cs",
+              "RelativeDocumentMoniker": "Code9.Domain\\Handlers\\GetAllCinemaHandler.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9.Domain\\Handlers\\GetAllCinemaHandler.cs",
+              "RelativeToolTip": "Code9.Domain\\Handlers\\GetAllCinemaHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAMwBgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:28:15.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9WebAPI\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "Code9WebAPI\\Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\r.kresoja\\OneDrive - Levi9 IT Services\\Desktop\\Termin2Input\\Code9WebAPI\\Code9WebAPI\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "Code9WebAPI\\Controllers\\CinemaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T11:31:12.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
